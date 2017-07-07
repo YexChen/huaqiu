@@ -38,12 +38,23 @@ Page({
     var vy = Math.floor(Math.random() * 10 * (Math.random() > 0.5 ? 1 : (-1)));
     //画球
     //
+    var x = 0;
+    var y = 0;
+    var fx = function(){
+      wx.getSystemInfo({
+        success: function(res) {
+          x = res.windowWidth/2;
+          y = res.windowHeight/2;
+        },
+      })
+    };
+    fx();
     //随机颜色加入缓存数组
     var myColor = this.colorGenerator();
     var pages = this;
     pages.balls_object.push({
-        x : 189,
-        y : 301,
+        x : x,
+        y : y,
         vx : vx,
         vy : vy,
         color : myColor
