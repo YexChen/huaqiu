@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="contain">
+  <canvas canvas-id="canvas" class = "canvas"/>
+</view>
