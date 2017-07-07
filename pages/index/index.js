@@ -3,6 +3,12 @@ Page({
   data: {
     pages : this
   },
+  //页面跳转
+  switchpages: function () {
+    wx.redirectTo({
+      url: '/pages/huaji/huaji',
+    })
+  },
   //造球运动
   create_ball: function (canvas,color,y) {
 
@@ -31,10 +37,6 @@ Page({
     var vx = Math.floor(Math.random() * 10 * (Math.random() > 0.5 ? 1 : (-1)));
     var vy = Math.floor(Math.random() * 10 * (Math.random() > 0.5 ? 1 : (-1)));
     //画球
-    canvas.setFillStyle(color);
-    canvas.beginPath();
-    canvas.arc(187, 301, 10, 0, 2 * Math.PI);
-    canvas.fill();
     //
     //随机颜色加入缓存数组
     var myColor = this.colorGenerator();

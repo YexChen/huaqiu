@@ -1,4 +1,5 @@
 <!--index.wxml-->
 <view class="contain">
   <canvas canvas-id="canvas" class = "canvas"/>
+  <button bindtap = "switchpages">真-新世界的大门</button>
 </view>

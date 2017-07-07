@@ -2,6 +2,7 @@
   "pages":[
     "pages/hanshu/hanshu",
     "pages/index/index",
+    "pages/huaji/huaji",
     "pages/logs/logs"
   ],
   "window":{
