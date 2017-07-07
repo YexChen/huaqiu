@@ -107,9 +107,11 @@ Page({
 
 
      //这个是课堂代码
+     /*
      var color = pages.colorGenerator();
      y += 1;
      pages.create_ball(context, color,y);
+     */
      //context.draw();
      requestAnimationFrame(animates);
    });

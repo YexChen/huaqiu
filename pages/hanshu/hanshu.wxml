@@ -1,2 +1,2 @@
 <!--pages/hanshu/hanshu.wxml-->
-<text>pages/hanshu/hanshu.wxml</text>
+<text bindtap="swichpages">pages/hanshu/hanshu.wxml</text>
