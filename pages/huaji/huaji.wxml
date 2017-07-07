@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="contain">
+  <canvas canvas-id="canvas" class = "canvas"/>
+  <button bindtap="xiaoye">完美的女仆长（误</button>
+  <button bindtap="pants">这个算开车吗（误</button>
+  <button bindtap="yinyang">灵梦的阴阳玉</button>
+</view>
